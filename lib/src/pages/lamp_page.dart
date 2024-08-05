@@ -15,7 +15,6 @@ class LampPage extends StatelessWidget {
       body: const Column(
         children: [
           LampWidget(),
-          ScheduleWidget(),
         ],
       ),
     );

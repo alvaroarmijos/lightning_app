@@ -8,13 +8,13 @@ class AppBarLamp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const SafeArea(
         child: SizedBox(
-            height: 52,
+            height: 50,
             child: Stack(
               children: [
                 Align(
                   alignment: Alignment.center,
                   child: Text(
-                    "Light",
+                    "HELLO ",
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 22,
@@ -22,16 +22,6 @@ class AppBarLamp extends StatelessWidget {
                     ),
                   ),
                 ),
-                Padding(
-                  padding: EdgeInsets.only(left: 32),
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: Icon(
-                      CupertinoIcons.arrow_left,
-                      color: Colors.white,
-                    ),
-                  ),
-                )
               ],
             )));
   }
