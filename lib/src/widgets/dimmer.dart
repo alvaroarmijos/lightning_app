@@ -37,7 +37,7 @@ class Dimmer extends StatelessWidget {
                 ),
                 const Icon(
                   CupertinoIcons.lightbulb_fill,
-                  color: Colors.grey,
+                  color: Colors.yellow,
                 ),
               ],
             ),
